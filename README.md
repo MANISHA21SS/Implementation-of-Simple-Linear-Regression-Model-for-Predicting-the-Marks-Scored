@@ -59,7 +59,7 @@ mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
-
+ 
 #Graph plot for training data
 plt.scatter(x_train,y_train,color='orange')
 plt.plot(x_train,regressor.predict(x_train),color='red')
